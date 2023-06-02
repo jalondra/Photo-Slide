@@ -1,0 +1,81 @@
+.ui-sortable-placeholder {
+    border: 1px dashed black !important;
+    visibility: visible !important;
+    background: #eeeeee78 !important;
+}
+
+.ui-sortable-placeholder * {
+    visibility: hidden;
+}
+
+.RearangeBox.dragElemThumbnail {
+    opacity: 0.6;
+}
+
+.RearangeBox {
+    cursor: all-scroll;
+    border: 1px solid #9E9E9E;
+    float: left;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 5px !important;
+    text-align: center;
+    color: #ffffff;
+    background: #fff;
+    /*color: rgb(34, 34, 34);
+        background: #f3f2f1;     */
+}
+
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.IMGthumbnail {
+    max-width: 168px;
+    margin: auto;
+    background-color: #fff;
+    border: none;
+}
+
+.IMGthumbnail img {
+    max-width: 100%;
+}
+
+.imgThumbContainer {
+
+    margin: 4px;
+    border: solid;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    border: 1px solid;
+
+}
+
+
+
+.imgThumbContainer>.imgName {
+    text-align: center;
+    padding: 2px 6px;
+    margin-top: 4px;
+    font-size: 13px;
+    height: 15px;
+    overflow: hidden;
+}
+
+.imgThumbContainer>.imgRemoveBtn {
+    position: absolute;
+    color: #e91e63ba;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+    display: none;
+}
+
+.RearangeBox:hover>.imgRemoveBtn {
+    display: block;
+}
